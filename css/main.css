@@ -1,0 +1,16 @@
+html {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+- *Typefaces:* `Open Sans`
+- *Text sizes:* `4rem`, `2rem`
+- *Colours:* `rgba(0, 0, 0, .5)`
+- *Expected class names:* `.img-flex`, `.banner`
+- *Banner maximum height:* `500px`
+- *Content maximum width:* `50em`
