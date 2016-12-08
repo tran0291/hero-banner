@@ -35,6 +35,17 @@ body {
 .banner-content {
   font-size: 2rem;
   font-style: italic;
+  margin: 1rem 0 1rem 0;
+}
+
+.text {
+  position: absolute;
+  left: 50%;
+  bottom: 1em;
+  transform: translateX(-50%);
+  z-index: 100;
+  max-width: 50em;
+  padding: 1.5rem 0 0 1.5rem;
 }
 
 - *Typefaces:* `Open Sans`
