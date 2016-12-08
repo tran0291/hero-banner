@@ -8,6 +8,15 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
+.img-flex {
+  width: 100%;
+  display: block;
+}
+
 - *Typefaces:* `Open Sans`
 - *Text sizes:* `4rem`, `2rem`
 - *Colours:* `rgba(0, 0, 0, .5)`
