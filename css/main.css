@@ -17,6 +17,26 @@ body {
   display: block;
 }
 
+.banner {
+  position: relative;
+  max-height: 500px;
+  overflow: hidden;
+}
+
+.banner-title {
+  color: #fff;
+  background-color: rgba(0, 0, 0, .5);
+  font-size: 4rem;
+  margin: 0;
+  display: inline;
+  line-height: 1.5;
+}
+
+.banner-content {
+  font-size: 2rem;
+  font-style: italic;
+}
+
 - *Typefaces:* `Open Sans`
 - *Text sizes:* `4rem`, `2rem`
 - *Colours:* `rgba(0, 0, 0, .5)`
