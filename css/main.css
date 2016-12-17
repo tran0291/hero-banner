@@ -27,7 +27,6 @@ body {
   color: #fff;
   background-color: rgba(0, 0, 0, .5);
   font-size: 4rem;
-  margin: 0;
   display: inline;
   line-height: 1.5;
 }
@@ -35,22 +34,27 @@ body {
 .banner-content {
   font-size: 2rem;
   font-style: italic;
-  margin: 1rem 0 1rem 0;
+  margin: 1rem 0;
 }
 
 .text {
   position: absolute;
-  left: 50%;
-  bottom: 1em;
-  transform: translateX(-50%);
+  left: 0%;
+  bottom: 0;
   z-index: 100;
   max-width: 50em;
-  padding: 1.5rem 0 0 1.5rem;
+  padding: 1.5em 0 0 1.5em;
 }
 
-- *Typefaces:* `Open Sans`
-- *Text sizes:* `4rem`, `2rem`
-- *Colours:* `rgba(0, 0, 0, .5)`
-- *Expected class names:* `.img-flex`, `.banner`
-- *Banner maximum height:* `500px`
-- *Content maximum width:* `50em`
+@media only screen and (min-width: 1400px) {
+
+  .text {
+    position: absolute;
+    left: 50%;
+    bottom: 1em;
+    transform: translateX(-50%);
+    z-index: 100;
+    max-width: 50em;
+    padding: 1.5rem 0 0 1.5rem;
+  }
+}
